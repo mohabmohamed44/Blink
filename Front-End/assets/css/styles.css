@@ -1,349 +1,343 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap");
 * {
-    padding: 0;
-    margin:0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-
-
-
-
 body {
-    background: #A770EF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(0deg, #CD55FB, #ff4452, #fcb341);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(90deg, #CD55FB, #ff4452, #fcb341); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    font-family: sans-serif;
+  background: #a770ef; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    0deg,
+    #cd55fb,
+    #ff4452,
+    #fcb341
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    90deg,
+    #cd55fb,
+    #ff4452,
+    #fcb341
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: sans-serif;
 }
 
 .container {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background: #fff;
-    max-width: 1313px;
-    height: 889px;
-    margin: auto;
-    border-radius: 100px 0px 0px 100px;
-    margin-top: 15px; */
-    display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-            background: #fff;
-            max-width: 1313px;
-            height: 889px;
-            margin: auto;
-            border-radius: 100px 0px 0px 100px;
-            margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: #fff;
+  max-width: 1313px;
+  height: 889px;
+  margin: auto;
+  border-radius: 100px 0px 0px 100px;
+  margin-top: 15px;
+  padding: 20px;
+  background: #fff;
+  max-width: 1313px;
+  height: 889px;
+  margin: auto;
+  border-radius: 100px 0px 0px 100px;
+  margin-top: 15px;
 }
 
 .logo-container > img {
-    background-color: transparent;
-    height: 185px;
-    left: 440px;
-    object-fit: cover;
-    position: absolute;
-    top: 111px;
-    width: 314px;
+  background-color: transparent;
+  height: 185px;
+  left: 440px;
+  object-fit: cover;
+  position: absolute;
+  top: 111px;
+  width: 314px;
 }
 
 .sign-in-label .sign-in {
-    background-color: transparent;
-    font-style: normal;
-    letter-spacing: 1.00px;
-    line-height: normal;
-    text-align: left;
-    white-space: nowrap;
-    font-weight: 500;
-    height: auto;
-    left: 503px;
-    position: absolute;
-    top: 336px;
-    width: auto;
-    color: black;
+  background-color: transparent;
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: normal;
+  text-align: left;
+  white-space: nowrap;
+  font-weight: 500;
+  height: auto;
+  left: 503px;
+  position: absolute;
+  top: 336px;
+  width: auto;
+  color: black;
 }
 
 .vec {
-    background-color: transparent;
-    position: absolute;
-    height: 136px;
-    left: 656px;
-    top: 251px;
-    width: 166px;
+  background-color: transparent;
+  position: absolute;
+  height: 136px;
+  left: 656px;
+  top: 251px;
+  width: 166px;
 }
 
 .form-input > form > .name-input {
-    align-items: center;
-    background-color: #e8e8e8;
-    border: 1px solid;
-    border-color: #9f9f9f;
-    border-radius: 62px;
-    display: flex;
-    gap: 10px;
-    height: 56px;
-    font-size: 1rem;
-    left:345px;
-    padding: 10px 25px;
-    position: absolute;
-    top: 400px;
-    width: 511px;
+  align-items: center;
+  background-color: #e8e8e8;
+  border: 1px solid;
+  border-color: #9f9f9f;
+  border-radius: 62px;
+  display: flex;
+  gap: 10px;
+  height: 56px;
+  font-size: 1rem;
+  left: 345px;
+  padding: 10px 25px;
+  position: absolute;
+  top: 400px;
+  width: 511px;
 }
 
-
 .password-field input {
-    width:511px;
-    border-radius: 62px;
-    height: 56px;
-    padding: 10px 25px;
-    display:flex;
-    border: 1px solid;
-    font-size: 1rem;
-    border-color: #9f9f9f;
-    background-color: #e8e8e8;
+  width: 511px;
+  border-radius: 62px;
+  height: 56px;
+  padding: 10px 25px;
+  display: flex;
+  border: 1px solid;
+  font-size: 1rem;
+  border-color: #9f9f9f;
+  background-color: #e8e8e8;
 }
 
 .password-field {
-    position: relative;
-    right: 360px;
-    top: 58px;
+  position: relative;
+  right: 360px;
+  top: 58px;
 }
 
 .password-field #toggler {
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
 }
 
 .forgot-password {
-    text-decoration: underline 1.5px;
-    background-color: transparent;
-    color: #ff9b00;
-    font-family: sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    letter-spacing: 0.00px;
-    line-height: normal;
-    margin-bottom: -10px;
-    margin-top: -12px;
-    position: relative;
-    text-align: left;
-    white-space: nowrap;
-    width: fit-content;
-    top: 62px;
-    right: 50px;
-    cursor: pointer;
+  text-decoration: underline 1.5px;
+  background-color: transparent;
+  color: #ff9b00;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0px;
+  line-height: normal;
+  margin-bottom: -10px;
+  margin-top: -12px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+  top: 62px;
+  right: 50px;
+  cursor: pointer;
 }
-
 
 .sign-in {
-    align-items: center;
-    background-color: #fcb341;
-    border-radius: 53px;
-    display: flex;
-    gap: 10px;
-    height: 56px;
-    justify-content: center;
-    left: 105px;
-    padding: 10px 25px;
-    position: absolute;
-    top: 608px;
-    width: 511px;
-    left: 345px;
-    border:#fcb341;
-    color: white;
-    font-weight:600;
-    font-size: 32px;
+  align-items: center;
+  background-color: #fcb341;
+  border-radius: 53px;
+  display: flex;
+  gap: 10px;
+  height: 56px;
+  justify-content: center;
+  left: 105px;
+  padding: 10px 25px;
+  position: absolute;
+  top: 608px;
+  width: 511px;
+  left: 345px;
+  border: #fcb341;
+  color: white;
+  font-weight: 600;
+  font-size: 32px;
 }
 
-.form-input .sign-in:hover{
-    background-color: #ff9b00;
-    border:#ff9b00;
-    transition: all ease-in 1s;
-    cursor: pointer;
+.form-input .sign-in:hover {
+  background-color: #ff9b00;
+  border: #ff9b00;
+  transition: all ease-in 1s;
+  cursor: pointer;
 }
 
 .rectangle-2 {
-    background-color: #ffc737;
-    border-radius: 0px 100px 100px 0px;
-    height: 889px;
-    left: 880px;
-    position: absolute;
-    top: 0px;
-    transform: rotate(180deg);
-    width: 791px;
-    margin-top: 15px;
+  background-color: #ffc737;
+  border-radius: 0px 100px 100px 0px;
+  height: 889px;
+  left: 880px;
+  position: absolute;
+  top: 0px;
+  transform: rotate(180deg);
+  width: 791px;
+  margin-top: 15px;
 }
 
 .info p {
-    background-color: transparent;
-    color: #333333;
-    font-family: var(--font-family-lt_saeada-regular);
-    font-size: var(--font-size-m);
-    font-style: normal;
-    font-weight: 500;
-    height: auto;
-    left: 360px;
-    letter-spacing: 0.00px;
-    line-height: normal;
-    position: absolute;
-    text-align: left;
-    top: 680px;
-    white-space: nowrap;
-    width: auto;
+  background-color: transparent;
+  color: #333333;
+  font-family: var(--font-family-lt_saeada-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 360px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 680px;
+  white-space: nowrap;
+  width: auto;
 }
 
 .info a {
-    text-decoration: none;
-    color:#ff9b00;
-    background-color: transparent;
-    display: flex;
-    font-style: normal;
-    font-weight: 500;
-    height: auto;
-    left: 635px;
-    letter-spacing: 0.00px;
-    line-height: normal;
-    position: absolute;
-    text-align: left;
-    top: 680px;
-    white-space: nowrap;
-    width: auto;
+  text-decoration: none;
+  color: #ff9b00;
+  background-color: transparent;
+  display: flex;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 635px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 680px;
+  white-space: nowrap;
+  width: auto;
 }
 
-
-
 .rectangle-2 > .rectangle-img > img {
-    border: 0px 100px 100px 0px;
-    background-color: transparent;
-    height: 717px;
-    left: 80px;
-    object-fit: cover;
-    position: absolute;
-    top: 134px;
-    width: 679px;
-    rotate: 180deg;
+  border: 0px 100px 100px 0px;
+  background-color: transparent;
+  height: 717px;
+  left: 80px;
+  object-fit: cover;
+  position: absolute;
+  top: 134px;
+  width: 679px;
+  rotate: 180deg;
 }
 
 .rectangle-2 .line-1 {
-    background-color: white;
-    border-radius: 31px;
-    height: 17px ;
-    left: -226px;
-    position: absolute;
-    top: 709px;
-    transform: rotate(270deg);
-    width: 526px;
+  background-color: white;
+  border-radius: 31px;
+  height: 17px;
+  left: -226px;
+  position: absolute;
+  top: 709px;
+  transform: rotate(270deg);
+  width: 526px;
 }
 
 .rectangle-2 .line-2 {
-    background-color: #fff;
-    border-radius: 31px;
-    height: 17px;
-    left: 1px;
-    position: absolute;
-    top: 99px;
-    width: 530px;
+  background-color: #fff;
+  border-radius: 31px;
+  height: 17px;
+  left: 1px;
+  position: absolute;
+  top: 99px;
+  width: 530px;
 }
 
 .rectangle-2 .line-3 {
-    background-color: #fff;
-    border-radius: 31px;
-    height: 17px;
-    left: 2px;
-    position: absolute;
-    top: 66px;
-    width: 467px;
+  background-color: #fff;
+  border-radius: 31px;
+  height: 17px;
+  left: 2px;
+  position: absolute;
+  top: 66px;
+  width: 467px;
 }
 
 .rectangle-2 .line-4 {
-    background-color: #fff;
-    border-radius: 31px;
-    height: 17px;
-    left: 2px;
-    position: absolute;
-    top: 35px;
-    width: 389px;
+  background-color: #fff;
+  border-radius: 31px;
+  height: 17px;
+  left: 2px;
+  position: absolute;
+  top: 35px;
+  width: 389px;
 }
 
-   
 .rectangle-2 .line-5 {
-    background-color: #fff;
-    border-radius: 31px;
-    height: 17px;
-    left: 3px;
-    position: absolute;
-    top: 6px;
-    width: 327px;
+  background-color: #fff;
+  border-radius: 31px;
+  height: 17px;
+  left: 3px;
+  position: absolute;
+  top: 6px;
+  width: 327px;
 }
 
 .drawer {
-    background-color: transparent;
-    position: absolute;
-    height: 115px;
-    left: 450px;
-    top: 760px;
-    width: 146px;
+  background-color: transparent;
+  position: absolute;
+  height: 115px;
+  left: 450px;
+  top: 760px;
+  width: 146px;
 }
-
 
 .header-text {
-    background-color: transparent;
-    color: #ffc737;
-    font-style: normal;
-    font-weight: 700;
-    height: auto;
-    left: 555px;
-    letter-spacing: 0.00px;
-    line-height: normal;
-    position: absolute;
-    text-align: right;
-    top: 750px;
-    width: 296px;
-    letter-spacing: 2px;
-    font-size:2rem;
+  background-color: transparent;
+  color: #ffc737;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 555px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 750px;
+  width: 296px;
+  letter-spacing: 2px;
+  font-size: 2rem;
 }
-   
 
-.header-text-2{
-    background-color: transparent;
-    color: #ffffff;
-    font-style: normal;
-    font-weight: bolder;
-    height: auto;
-    left: 784px;
-    letter-spacing: 0.00px;
-    line-height: normal;
-    position: absolute;
-    display: flex;
-    text-align: right;
-    top: 762px;
-    width: 296px;
-    letter-spacing: 2px;
-    font-size:2rem;
+.header-text-2 {
+  background-color: transparent;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bolder;
+  height: auto;
+  left: 784px;
+  letter-spacing: 0px;
+  line-height: normal;
+  position: absolute;
+  display: flex;
+  text-align: right;
+  top: 762px;
+  width: 296px;
+  letter-spacing: 2px;
+  font-size: 2rem;
 }
 
 .footer {
-    padding-right: 123px;
+  padding-right: 123px;
 }
 
 .header-text,
 .header-text-2 {
-    font-size: 50px;
-    font-weight: bold;
-    display: inline-block;
-    vertical-align: top;
-    text-align: justify;
-    padding-left: 101px;
-    padding-top: 8px;
+  font-size: 50px;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: top;
+  text-align: justify;
+  padding-left: 101px;
+  padding-top: 8px;
 }
-
-
 
 .header-text-2 {
   color: #fff; /* Optional: Color the second part orange */
