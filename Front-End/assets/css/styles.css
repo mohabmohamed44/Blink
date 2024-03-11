@@ -18,16 +18,26 @@ body {
 }
 
 .container {
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
     background: #fff;
     max-width: 1313px;
-    height: 850px;
+    height: 889px;
     margin: auto;
     border-radius: 100px 0px 0px 100px;
-    margin-top: 55px;
+    margin-top: 15px; */
+    display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background: #fff;
+            max-width: 1313px;
+            height: 889px;
+            margin: auto;
+            border-radius: 100px 0px 0px 100px;
+            margin-top: 15px;
 }
 
 .logo-container > img {
@@ -98,7 +108,7 @@ body {
 .password-field {
     position: relative;
     right: 360px;
-    top: 40px;
+    top: 58px;
 }
 
 .password-field #toggler {
@@ -125,9 +135,9 @@ body {
     text-align: left;
     white-space: nowrap;
     width: fit-content;
-    top: 47px;
+    top: 62px;
     right: 50px;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 
@@ -158,18 +168,18 @@ body {
     cursor: pointer;
 }
 
-
-
 .rectangle-2 {
     background-color: #ffc737;
-    border-radius: 0px 0px 100px 0px !important; 
-    height: 852px;
-    left: 900px;
+    border-radius: 0px 100px 100px 0px;
+    height: 889px;
+    left: 880px;
     position: absolute;
-    top: 53px;
+    top: 0px;
     transform: rotate(180deg);
-    width: 780px;
+    width: 791px;
+    margin-top: 15px;
 }
+
 .info p {
     background-color: transparent;
     color: #333333;
@@ -207,21 +217,11 @@ body {
 }
 
 
-.rectangle-2 {
-    background-color: #ffc737;
-    border-radius: 0px 100px 0px 0px;
-    height: 850px;
-    left: 880px;
-    position: absolute;
-    top: 55px;
-    transform: rotate(180deg);
-    width: 791px;
-}
 
-
-.rectangle-2 .rectangle-img img {
+.rectangle-2 > .rectangle-img > img {
+    border: 0px 100px 100px 0px;
     background-color: transparent;
-    height: 690px;
+    height: 717px;
     left: 80px;
     object-fit: cover;
     position: absolute;
@@ -240,16 +240,16 @@ body {
     transform: rotate(270deg);
     width: 526px;
 }
+
 .rectangle-2 .line-2 {
     background-color: #fff;
     border-radius: 31px;
     height: 17px;
     left: 1px;
     position: absolute;
-    top: 85px;
+    top: 99px;
     width: 530px;
 }
-
 
 .rectangle-2 .line-3 {
     background-color: #fff;
@@ -257,18 +257,20 @@ body {
     height: 17px;
     left: 2px;
     position: absolute;
-    top: 57px;
+    top: 66px;
     width: 467px;
 }
+
 .rectangle-2 .line-4 {
     background-color: #fff;
     border-radius: 31px;
     height: 17px;
     left: 2px;
     position: absolute;
-    top: 29px;
+    top: 35px;
     width: 389px;
 }
+
    
 .rectangle-2 .line-5 {
     background-color: #fff;
@@ -276,7 +278,7 @@ body {
     height: 17px;
     left: 3px;
     position: absolute;
-    top: 1px;
+    top: 6px;
     width: 327px;
 }
 
