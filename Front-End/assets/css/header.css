@@ -1,0 +1,28 @@
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    margin: 10px auto 10px auto;
+    width: max-content;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header .container {
+    border-bottom: 1px solid #d2d4d968;
+}
+
+/* screens */
+
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 25pt;
+    }
+}

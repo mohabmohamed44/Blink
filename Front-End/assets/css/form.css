@@ -1,0 +1,172 @@
+.login_white {
+  position: relative;
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  width: 80%;
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+
+.login_yellow {
+  position: absolute;
+  background-color: #FFC737;
+  display: flex;
+  height: 90%;
+  width: 45%;
+  border-top-left-radius: 60px;
+}
+
+#logo {
+  position: absolute;
+  top: 0;
+  background: url("/assets/img/logo.png") no-repeat center;
+  height: 130px;
+  width: 200px;
+  margin-top: 20px;
+}
+
+#triangle_icon {
+  position: absolute;
+  background: url("/assets/img/Group.png") no-repeat center;
+  height: 100px;
+  width: 120px;
+  top: 18%;
+  right: 30px;
+}
+
+.form_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 44%;
+  position: absolute;
+  left: 0;
+}
+
+.form_div {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+#myForm {
+  width: 80%;
+}
+
+.form_div h1 {
+  font-weight: 600;
+  font-size: 20pt;
+  margin-bottom: 10px;
+}
+
+input {
+  background-color: transparent;
+  outline: none;
+  border: 2px solid #9F9F9F;
+  width: 100%;
+  padding: 10px 20px 10px 20px;
+  border-radius: 51px;
+}
+
+input:focus {
+  border-image: linear-gradient(to right, #CD55FB, #ff4452, #fcb341);
+  border-image-slice: 1;
+  border-image-width: 1px;
+  border-radius: 51px !important;
+}
+
+#email_div {
+  margin-bottom: 30px;
+}
+
+
+.input_div {
+  border-radius: 51px !important;
+  width: 100%;
+}
+
+#link_div {
+  text-align: end;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+#link_div a{
+  font-size: 12pt;
+  color: #FF9B00;
+}
+#button_div {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  background-color: #FCB341;
+  border-radius: 51px;
+  height: 40px;
+  z-index: -1;
+}
+
+#button_arrow {
+  position: absolute;
+  background: url("/assets/img/right-arrow.png") no-repeat center;
+  height: 40px;
+  width: 40px;
+}
+
+#button_div button{
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: 700;
+  color: #FFFFFF;
+  z-index: 0;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 12pt;
+}
+
+p a {
+  color:#FCB341;
+}
+
+#login_background {
+  position: absolute;
+  background: url("/assets/img/Rectangle 3.png") no-repeat center;
+  height: 100%;
+  width: 100%;
+}
+
+#bottom_icon {
+  background: url("/assets/img/group1.png") no-repeat center;
+  position: absolute;
+  width: 150px;
+  height: 120px;
+  bottom: 3%;
+  left: 8%;
+}
+
+#slogan {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 5%;
+  right: 3%;
+}
+
+#slogan p{
+  font-size: 23pt;
+  font-weight: 800;
+  color: #FFC737;
+  margin-left: 20px;
+}
+

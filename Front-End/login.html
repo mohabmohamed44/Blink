@@ -8,71 +8,47 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
     />
-    <!-- Normalize css -->
-    <link rel="stylesheet" href="./assets/css/normalize.css" />
     <!-- Custom CSS stylesheet -->
-    <link rel="stylesheet" href="./assets/css/styles.css" />
-    <title>Log In</title>
+    <link rel="stylesheet" href="/assets/css/form.css" />
+    <link rel="stylesheet" href="assets/css/body.css" />
+    <title>Blink | Login</title>
   </head>
   <body>
+    <div id="top_line"></div>
     <div class="container">
-      <div class="logo-container">
-        <img class="logo" src="./assets/img/Blink-logo 1.svg" alt="logo" />
-      </div>
-      <div class="sign-in-label">
-        <h2 class="sign-in">SIGN IN</h2>
-      </div>
-      <div class="draw-img">
-        <img class="vec" src="./assets/img/Group.png" alt="vector" />
-      </div>
-      <div class="form-input">
-        <form action="#" id="blink-sign-in">
-          <input
-            type="text"
-            class="name-input"
-            placeholder="Email or Phone Number"
-            required
-          />
-          <div class="password-field">
-            <input
-              type="password"
-              id="fakePassword"
-              placeholder="Enter Password"
-            />
-            <span><i id="toggler" class="far fa-eye"></i></span>
-          </div>
-          <div>
-            <a href="#" class="forgot-password">Forgot Password?</a>
-          </div>
-          <button class="frame-1 sign-in" type="submit">Sign in</button>
-          <div class="info">
-            <p>Don't have an Account?</p>
-            <a href="./signup.html">Sign Up</a>
-          </div>
-        </form>
-        <div class="rectangle-2">
-          <div class="rectangle-img">
-            <img
-              class="img-rect"
-              src="./assets/img/Rectangle 3.png"
-              alt="people"
-            />
-          </div>
-          <div class="line-1"></div>
-          <div class="line-2"></div>
-          <div class="line-3"></div>
-          <div class="line-4"></div>
-          <div class="line-5"></div>
+        <div class="login_white">
+            <div class="form_wrapper">
+              <div id="logo"></div>
+              <div id="triangle_icon"></div>
+              <div class="form_div">
+                <h1>SIGN IN</h1>
+                  <form id="myForm">
+                      <div class="input_div" id="email_div">
+                        <input type="text" name="email" placeholder="Enter Your Email" autocomplete="off">
+                      </div>
+                      <div class="input_div">
+                        <div id="password_icon"></div>
+                        <input type="password" name="password" placeholder="Enter Your Password" autocomplete="off">
+                      </div>
+                      <div id="link_div"><a href="">Forgot Password?</a></div>
+                      <div id="button_div">
+                        <div id="button_arrow"></div>
+                        <button type="submit">Sign In</button>
+                      </div>
+                      <p>Don't Have an Account? <a href="">Sign Up!</a></p>
+                  </form>
+              </div>
+              <div id="bottom_icon"></div>
+              <div id="slogan">
+                <p>Capture<br>your</p>
+                <p>favorite <br> moments!</p>
+              </div>
+            </div>
         </div>
-        <div class="wrapp">
-          <img src="./assets/img/group1.png" class="drawer" alt="img" />
+        <div class="login_yellow">
+            <div id="login_background"></div>
         </div>
-        <div class="b-text">
-          <span class="header-text">Capture Your</span>
-          <span class="header-text-2">favorite<br />moments</span>
-        </div>
-      </div>
     </div>
-    <script src="./assets/js/main.js"></script>
+    <script src="./main.js"></script>
   </body>
 </html>
