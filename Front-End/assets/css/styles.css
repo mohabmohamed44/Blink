@@ -1,11 +1,44 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
 }
 
+/* Define the font path relative to your CSS file */
+:root {
+  --font-path: url('../fonts/');
+}
+
+/* Load the LTSaeada font weights (add or remove weights as needed) */
+@font-face {
+  font-family: 'LTSaeada-Black', sans-serif;
+  src: local('LTSaeada-Black'),
+       url('var(--font-path)LTSaeada-Black.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'LTSaeada-Bold', sans-serif;
+  src: local('LTSaeada-Bold'),
+       url('var(--font-path)LTSaeada-Bold.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'LTSaeada-Regular', sans-serif;
+  src: local('LTSaeada-Regular'),
+       url('var(--font-path)LTSaeada-Regular.otf') format('otf');
+}
+
+/* Use the loaded fonts in your styles */
+body {
+  font-family: 'LTSaeada-Regular', sans-serif;
+}
+
+/* ... other styles where you want to use LTSaeada fonts */
+
+
+
+
+/* Base styles */
 body {
   background: #a770ef; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -19,9 +52,10 @@ body {
     #cd55fb,
     #ff4452,
     #fcb341
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  font-family:  'poppins',sans-serif;
+  ); /* Modern browsers */
+
 }
+
 
 .container {
   display: flex;
@@ -289,6 +323,11 @@ body {
   width: 146px;
 }
 
+
+.b-text {
+  display: flex;
+}
+
 .header-text {
   background-color: transparent;
   color: #ffc737;
@@ -308,9 +347,7 @@ body {
 
 .header-text-2 {
   background-color: transparent;
-  color: #ffffff;
   font-style: normal;
-  font-weight: bolder;
   height: auto;
   left: 784px;
   letter-spacing: 0px;
@@ -324,21 +361,26 @@ body {
   font-size: 2rem;
 }
 
+
+
 .footer {
   padding-right: 123px;
 }
 
-.header-text,
-.header-text-2 {
+.header-text, .header-text-2 {
   font-size: 50px;
   font-weight: bold;
   display: inline-block;
   vertical-align: top;
   text-align: justify;
-  padding-left: 101px;
-  padding-top: 8px;
+  padding-left: 125px;
+  padding-top: 7px;
 }
 
 .header-text-2 {
   color: #fff; /* Optional: Color the second part orange */
+}
+
+.b-text .quote {
+  padding-left: 1.5em;
 }
