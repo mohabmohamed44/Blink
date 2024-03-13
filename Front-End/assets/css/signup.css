@@ -1,0 +1,282 @@
+.login_white {
+    position: relative;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 80%;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+  }
+  
+  .login_yellow {
+    position: absolute;
+    background-color: #FFC737;
+    display: flex;
+    height: 90%;
+    width: 45%;
+    border-top-left-radius: 60px;
+  }
+  
+  #logo {
+    position: absolute;
+    top: 0;
+    background: url("../img/logo.png") no-repeat center;
+    height: 130px;
+    width: 200px;
+    margin-top: 20px;
+  }
+  
+  .form_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 44%;
+    position: absolute;
+    left: 0;
+  }
+  
+  .form_div {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  #myForm {
+    width: 80%;
+  }
+
+
+  
+  #password_icon {
+    position: absolute;
+    transform: translateY(-50%);
+    right: 125px;
+    padding-top: 48px;
+}
+
+
+  #eyeicon {
+    width: 20px;
+    height: auto;
+    cursor: pointer;
+  }
+  
+  .form_div h1 {
+    font-weight: 600;
+    font-size: 20pt;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    background-color: transparent;
+    outline: none;
+    border: 2px solid #9F9F9F;
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+    border-radius: 51px;
+  }
+  
+  input:focus {
+    border-image: linear-gradient(to right, #CD55FB, #ff4452, #fcb341);
+    border-image-slice: 1;
+    border-image-width: 1px;
+    border-radius: 51px !important;
+  }
+  
+  #full_name {
+    margin-bottom: 30px;
+  }
+  
+  
+  .input_div {
+    border-radius: 51px !important;
+    width: 100%;
+  }
+  
+  #link_div {
+    text-align: end;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  
+  #link_div a{
+    font-size: 12pt;
+    color: #FF9B00;
+  }
+  #button_div {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    background-color: #FCB341;
+    border-radius: 51px;
+    height: 40px;
+    z-index: -1;
+  }
+  
+  #button_arrow {
+    position: absolute;
+    background: url("../img/right-arrow.png") no-repeat center;
+    height: 40px;
+    width: 40px;
+  }
+  
+  #button_div button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 700;
+    color: #FFFFFF;
+    z-index: 0;
+  }
+  
+  p {
+    margin-top: 10px;
+    font-size: 12pt;
+  }
+  
+  p a {
+    color:#FCB341;
+  }
+  
+  #login_background {
+    position: absolute;
+    background: url("../img/Rectangle\ 3.svg") no-repeat center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  #bottom_icon {
+    background: url("../img/group1.png") no-repeat center;
+    position: absolute;
+    width: 150px;
+    height: 120px;
+    bottom: 3%;
+    left: 8%;
+  }
+  
+  #slogan {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+  }
+  
+  #slogan p{
+    font-size: 23pt;
+    font-weight: 800;
+    color: #FFC737;
+    margin-left: 20px;
+  }
+
+
+  #full_name_div,
+#phone_number_div,
+#email_div,
+#dob_div {
+    margin-bottom: 20px;
+}
+
+input[type="tel"],
+input[type="email"],
+input[type="date"] {
+    padding: 10px 20px;
+}
+
+#full_name_div input,
+#phone_number_div input,
+#email_div input,
+#dob_div input {
+    width: calc(100% - 40px);
+}
+
+#full_name_div,
+#phone_number_div,
+#email_div,
+#dob_div {
+    border-radius: 51px;
+}
+
+input[type="tel"],
+input[type="email"],
+input[type="date"] {
+    border: 2px solid #9F9F9F;
+    background-color: transparent;
+    outline: none;
+}
+
+input[type="tel"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus {
+    border-image: linear-gradient(to right, #CD55FB, #ff4452, #fcb341);
+    border-image-slice: 1;
+    border-image-width: 1px;
+    border-radius: 51px !important;
+}
+
+
+input {
+    background-color: transparent;
+    outline: none;
+    border: 2px solid #9F9F9F;
+    /* width: 100%; */
+    padding: 10px 20px 10px 20px;
+    border-radius: 51px;
+    width: calc(100% - 40px);
+}
+
+.input_div {
+    /* Your existing styles */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px; /* Add some margin for spacing */
+}
+
+.flex-row-8 {
+    display: flex;
+    align-items: center;
+}
+
+.input-wrapper {
+    margin-right: 5px; /* Decrease distance between inputs */
+}
+
+.dob-input {
+    width: 40px; /* Adjust width as needed */
+    height: 36px;
+    border: 2px solid #9F9F9F;
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+.dob-input:focus {
+    border-image: linear-gradient(to right, #CD55FB, #ff4452, #fcb341);
+    border-image-slice: 1;
+    border-image-width: 1px;
+}
+
+.span-c {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.span-d,
+.span-e {
+    font-size: 16px;
+    margin: 0 2px; /* Center the slashes */
+}
+
+
+
+/* Media Queries code for all screens */

@@ -27,15 +27,6 @@
   margin-top: 20px;
 }
 
-#triangle_icon {
-  position: absolute;
-  background: url("../img/Group.png") no-repeat center;
-  height: 100px;
-  width: 120px;
-  top: 18%;
-  right: 30px;
-}
-
 .form_wrapper {
   display: flex;
   justify-content: center;
