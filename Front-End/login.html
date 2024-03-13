@@ -9,7 +9,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
     />
     <!-- Custom CSS stylesheet -->
-    <link rel="stylesheet" href="/assets/css/form.css" />
+    <link rel="stylesheet" href="assets/css/form.css" />
     <link rel="stylesheet" href="assets/css/body.css" />
     <title>Blink | Login</title>
   </head>
@@ -27,8 +27,10 @@
                         <input type="text" name="email" placeholder="Enter Your Email" autocomplete="off">
                       </div>
                       <div class="input_div">
-                        <div id="password_icon"></div>
-                        <input type="password" name="password" placeholder="Enter Your Password" autocomplete="off">
+                        <div id="password_icon">
+                          <img src="./assets/img/No_eye.svg" alt="" id="eyeicon">
+                        </div>
+                        <input type="password" id="password" name="password" placeholder="Enter Your Password" autocomplete="off">
                       </div>
                       <div id="link_div"><a href="">Forgot Password?</a></div>
                       <div id="button_div">
@@ -45,15 +47,11 @@
               </div>
             </div>
         </div>
-        <div class="wrapp">
-          <img src="./assets/img/group1.png" class="drawer" alt="img" />
+        <div class="login_yellow">
+            <div id="login_background"></div>
         </div>
-        <div class="b-text">
-          <span class="header-text">Capture Your</span>
-          <span class="header-text-2">favorite<br />moments</span>
-        </div>
-      </div>
     </div>
-    <script src="./main.js"></script>
+    <script src="./assets/js/password_visibility.js"></script>
+    <script src="./assets/js/login.js"></script>
   </body>
 </html>

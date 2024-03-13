@@ -21,7 +21,7 @@
 #logo {
   position: absolute;
   top: 0;
-  background: url("/assets/img/logo.png") no-repeat center;
+  background: url("../img/logo.png") no-repeat center;
   height: 130px;
   width: 200px;
   margin-top: 20px;
@@ -29,7 +29,7 @@
 
 #triangle_icon {
   position: absolute;
-  background: url("/assets/img/Group.png") no-repeat center;
+  background: url("../img/Group.png") no-repeat center;
   height: 100px;
   width: 120px;
   top: 18%;
@@ -58,6 +58,19 @@
 
 #myForm {
   width: 80%;
+}
+
+#password_icon {
+  position: absolute;
+  transform: translateY(-50%);
+  right: 85px;
+  padding-top: 48px;
+}
+
+#eyeicon {
+  width: 20px;
+  height: auto;
+  cursor: pointer;
 }
 
 .form_div h1 {
@@ -114,7 +127,7 @@ input:focus {
 
 #button_arrow {
   position: absolute;
-  background: url("/assets/img/right-arrow.png") no-repeat center;
+  background: url("../img/right-arrow.png") no-repeat center;
   height: 40px;
   width: 40px;
 }
@@ -141,13 +154,13 @@ p a {
 
 #login_background {
   position: absolute;
-  background: url("/assets/img/Rectangle 3.png") no-repeat center;
+  background: url("../img/Rectangle\ 3.png") no-repeat center;
   height: 100%;
   width: 100%;
 }
 
 #bottom_icon {
-  background: url("/assets/img/group1.png") no-repeat center;
+  background: url("../img/group1.png") no-repeat center;
   position: absolute;
   width: 150px;
   height: 120px;
@@ -170,3 +183,4 @@ p a {
   margin-left: 20px;
 }
 
+/* Media Queries code for all screens */
